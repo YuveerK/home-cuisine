@@ -209,7 +209,7 @@ header .hamburger-icon i {
 
 .menu {
     width: 100%;
-    height: fit-content;
+    height:100%;
     background-color: #fad6a7;
     display: flex;
     align-items: center;
@@ -221,6 +221,7 @@ header .hamburger-icon i {
     background-repeat: no-repeat;
     background-size: cover;
     transition: 0.4s;
+    overflow-y: auto;
 
 }
 
@@ -231,6 +232,7 @@ header .hamburger-icon i {
     justify-content: center;
     flex-wrap: wrap;
     padding: 10px;
+    
 }
 
 .first-image-container .box {
